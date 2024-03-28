@@ -12,7 +12,7 @@ const ShowCase = ({ colorCategory, deleteHandler }) => {
                             <p>{item.category}</p>
                         </div>
                         <div>
-                            <button onClick={() => deleteHandler(item.id)} className="px-3 py-1 border rounded">Delete</button>
+                            <button onClick={() => deleteHandler(item.id)} className="px-3 py-1 border rounded hover:bg-red-600 hover:text-white">Delete</button>
                         </div>
                     </div>)
                 }
